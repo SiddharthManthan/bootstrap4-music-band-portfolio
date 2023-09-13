@@ -1,0 +1,29 @@
+footer {
+    margin-top: 4em;
+    background: $black;
+    padding: 2em 0 1.7em;
+    font-size: 0.9rem;
+    color: $gray-600;
+    text-align: center;
+    @include media-breakpoint-up(lg) {
+        text-align: left;
+    }
+}
+
+.social-links {
+    @include media-breakpoint-up(lg) {
+        text-align: right;
+    }
+}
+
+.social-link a {
+    color: $gray-600;
+    display: inline-block;
+    margin: 0 0.5em 0 .7em;
+}
+
+.social-link:not(:first-of-type)::before {
+    content:'/';
+    display: inline-block;
+    color:rgba($gray-600, 0.4);
+}

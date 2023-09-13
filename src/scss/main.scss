@@ -1,0 +1,21 @@
+@import 'abstracts/variables';
+
+// Fontawesome
+// importing core styling file
+@import "../fonts/fontawesome-6.4.0/scss/fontawesome.scss";
+
+// Import Styles
+@import "../fonts/fontawesome-6.4.0/scss/regular.scss";
+@import "../fonts/fontawesome-6.4.0/scss/solid.scss";
+
+// Import bootstrap
+@import 'styles';
+
+// Custom styles
+@import 'base/typography';
+
+@import 'components/navigation';
+@import 'components/parallax';
+@import 'components/footer';
+
+@import 'pages/home';

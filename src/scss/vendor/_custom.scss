@@ -1,0 +1,27 @@
+// Todo: Learn about css variables and default tag
+// Todo: Since we are not using default tag and bootstrap does it, we can override anywhere we want and overridden value will win 
+$red:    #e23400;
+$black:    #1f1f1f;
+//Todo: Find appropriate grey color and modify it in theme
+$grey:  #272727;
+$grey-secondary: #2F2f2f;
+$white: #FFF;
+
+$primary:       $red;
+$theme-colors: (
+  "primary": $red,
+  "secondary": $grey-secondary,
+  "dark": $black
+);
+
+$enable-rounded:    false;
+
+$body-bg:                   $grey-secondary;
+$body-color:                $white;
+
+$font-size-base: 1.1rem;
+$lead-font-size: 1.2rem;
+$display1-size: 12vw;
+$btn-font-size: 1.1rem;
+$btn-padding-x: 2.0em;
+$btn-padding-y: 0.7em;
